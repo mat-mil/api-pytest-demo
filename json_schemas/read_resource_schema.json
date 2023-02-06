@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object",
+    "properties": {
+        "args": {
+            "type": "object"
+        },
+        "data": {
+            "type": "string"
+        },
+        "files": {
+            "type": "object"
+        },
+        "headers": {
+            "type": "object"
+        },
+        "json": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "origin": {
+            "type": "string",
+            "format": "ipv4"
+        },
+        "url": {
+            "type": "string",
+            "format": "uri"
+        }
+    },
+    "required": [
+        "args",
+        "origin",
+        "url"
+    ]
+}

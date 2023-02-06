@@ -1,0 +1,20 @@
+{
+    "slideshow": {
+        "author": "Imaginary Author",
+        "date": "01.01.1970",
+        "slides": [
+            {
+                "title": "First slide of an imaginary presentation",
+                "type": "all"
+            },
+            {
+                "items": [
+                    "Second slide of an imaginary presentation"
+                ],
+                "title": "Overview",
+                "type": "all"
+            }
+        ],
+        "title": "Sample Slide Show"
+    }
+}

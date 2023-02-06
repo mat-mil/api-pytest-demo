@@ -1,0 +1,1 @@
+Minimal API test framework with Pytest and JSON Schema validation.
